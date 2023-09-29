@@ -140,9 +140,9 @@ img {
 }
 
 .hero-btn {
-    background: #4D5AE5;
+    background-color: #4D5AE5;
     border-radius: 4px;
-    rgba(0, 0, 0, 0.15);
+    border: none;
     color: #FFF;
     font-family: inherit;
     font-size: 16px;
@@ -150,13 +150,14 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    display: block;
     margin: 0 auto;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-    color: #404BBF;
-    background: #404BBF;
+    background-color: #404BBF;
+    color: #FFF;
 }
 
 /*========================*/
@@ -165,6 +166,7 @@ img {
 
 .featutes {
     background-color: #FFF;
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 
@@ -195,6 +197,7 @@ img {
 .team {
     background-color: #F4F4FD;
     padding-bottom: 120px;
+    padding-top: 120px;
 }
 
 .team-title {
@@ -247,6 +250,7 @@ img {
 .portfolio {
     background-color: #FFF;
     padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .portfolio-title {
