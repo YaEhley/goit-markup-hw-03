@@ -152,6 +152,8 @@ img {
     cursor: pointer;
     display: block;
     margin: 0 auto;
+    padding: 16px 32px;
+
 }
 
 .hero-btn:hover,
