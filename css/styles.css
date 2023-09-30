@@ -46,8 +46,13 @@ img {
     margin: 0 auto;
 }
 .visually-hidden {
+    position: absolute;
+        clip: rect(1px 1px 1px 1px);
+        padding: 0;
+        border: 0;
+        height: 1px;
+        width: 1px;
         overflow: hidden;
-        clip: rect(0, 0, 0, 0);
         white-space: nowrap;
         clip-path: inset(100%);
 }
@@ -55,8 +60,8 @@ img {
 /*============HEADER============*/
 
 .header {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     border-bottom: 1px solid #E7E9FC;
 }
 
@@ -84,7 +89,7 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    gap: 
+    margin-right: 76px;
 }
 
 .header-logo span{
@@ -176,6 +181,7 @@ img {
     display: block;
     margin: 0 auto;
     padding: 16px 32px;
+    min-width: 169px;
 
 }
 
@@ -253,8 +259,10 @@ img {
     width: calc((100% - 24px *3) / 4);
 }
 
-.team-img {
-    margin-bottom: 32px;
+.team-img {}
+
+.team-item-h-and-p {
+    padding: 32px 0;
 }
 
 .team-subtitle {
@@ -265,6 +273,7 @@ img {
         line-height: 1.2;
         letter-spacing: 0.02em;
         margin-bottom: 8px;
+        text-align: center;
 }
 
 .team-item-text {
@@ -273,6 +282,7 @@ img {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        text-align: center;
 }
 
 /*========================*/
@@ -304,14 +314,19 @@ img {
 
 .portfolio-item {
     padding-bottom: 32px;
-    border: 1px solid #E7E9FC;
     width: calc((100% - 48px) / 3);
 }
 
 .portfolio-img {
-    margin-bottom: 32px;
     display: block;
     max-width: 100%;
+}
+
+.portfolio-h3-and-p {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 
 .portfolio-subtitle {
@@ -320,9 +335,6 @@ img {
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        margin-bottom: 8px;
-        padding-left: 16px;
-        padding-right: 16px;
 }
 
 .portfolio-item-text {
@@ -330,8 +342,6 @@ img {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        padding-left: 16px;
-        padding-right: 16px;
 }
 
 /*========================*/
@@ -352,6 +362,8 @@ img {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 
 .footer-logo:hover,
