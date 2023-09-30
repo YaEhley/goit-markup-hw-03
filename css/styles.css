@@ -90,8 +90,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-logo span{
@@ -115,7 +113,7 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
+    padding: 24px 0;
 }
 
 .header-menu-link:hover,
