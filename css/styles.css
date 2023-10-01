@@ -114,6 +114,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
+    display: block;
 }
 
 .header-menu-link:hover,
@@ -254,7 +255,6 @@ img {
 
 .team-item {
     background-color: #FFFFFF;
-    padding-bottom: 32px;
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 24px *3) / 4);
 }
@@ -317,7 +317,6 @@ img {
 }
 
 .portfolio-item {
-    padding-bottom: 32px;
     width: calc((100% - 48px) / 3);
 }
 
